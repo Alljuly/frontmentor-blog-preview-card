@@ -1,103 +1,103 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html,body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100vh;
-    background-color: hsl(47, 88%, 63%);
+html,
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100vh;
+	background-color: hsl(47, 88%, 63%);
 
-    font-family: "Figtree";
+	font-family: "Figtree";
 }
 
-.card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    min-height: fit-content;
-    max-width: 300px;
-    background-color:  hsl(0, 0%, 100%);
-    border: outset 1px hsl(0, 0%, 7%);
-    box-shadow: 5px 5px 2px hsl(0, 0%, 7%);
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	min-height: fit-content;
+	max-width: 300px;
+	background-color: hsl(0, 0%, 100%);
+	border: outset 1px hsl(0, 0%, 7%);
+	box-shadow: 5px 5px 2px hsl(0, 0%, 7%);
 
-    border-radius: 12px;
+	border-radius: 12px;
 }
 
-.card > div{
-    max-width: 85%;
-    margin-top: .8rem;
+.card > div {
+	max-width: 85%;
+	margin-top: 0.8rem;
 }
 
-h1{
-    font-size: 18px
+h1 {
+	font-size: 18px;
 }
 
-h1:hover{
-    color: hsl(47, 88%, 63%); 
-    cursor: pointer;
+h1:hover {
+	color: hsl(47, 88%, 63%);
+	cursor: pointer;
 }
 
-.card__flag, .card__description, p {
-    font-size: 12px;
+.card__flag,
+.card__description,
+p {
+	font-size: 12px;
 }
 
-.card__flag{
-    background-color: hsl(47, 88%, 63%);
-    padding: 0.2rem 0.5rem;
-    width: max-content;
-    border-radius: 6px;
-    font-weight: bold;
+.card__flag {
+	background-color: hsl(47, 88%, 63%);
+	padding: 0.2rem 0.5rem;
+	width: max-content;
+	border-radius: 6px;
+	font-weight: bold;
 }
 
-.card__content{
-    width: 85%;
-    height: 80%;
-    align-self: center;
-    justify-content: space-between;
-    align-items: start;
+.card__content {
+	width: 85%;
+	height: 80%;
+	align-self: center;
+	justify-content: space-between;
+	align-items: start;
 }
 
 .card__content > * {
-    margin-bottom: .8rem;
+	margin-bottom: 0.8rem;
 }
 
-.card__illustration{
-    align-self: center;
-    margin-top: 1.2rem;
-    border-radius: 12px;
-    max-width: 85%;
+.card__illustration {
+	align-self: center;
+	margin-top: 1.2rem;
+	border-radius: 12px;
+	max-width: 85%;
 }
 
-
-.card__author{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 1rem;
-} 
+.card__author {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
 .card__author > p {
-    font-weight: bold; 
-    margin-inline: .6rem;
+	font-weight: bold;
+	margin-inline: 0.6rem;
 }
 
-.card__description{
-    color: hsl(0, 0%, 50%);
-    line-height: 1rem;
+.card__description {
+	color: hsl(0, 0%, 50%);
+	line-height: 1rem;
 }
 
-.card__date{
-    font-size: 12px;
+.card__date {
+	font-size: 12px;
 }
-.card__icon{
-    width: 2rem;
+.card__icon {
+	width: 1.5rem;
 }
-
-
-
